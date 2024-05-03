@@ -23,3 +23,4 @@ With MALM you can locally manage an Anime List.
 * beeing able to load
 * beeing able to load old formatted animie.txt
 * adding button "current Date" for when finished a episode
+* new tab on left side: anime plan to watch. With checkbox??
