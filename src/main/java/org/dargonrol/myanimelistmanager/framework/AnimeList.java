@@ -2,7 +2,7 @@ package org.dargonrol.myanimelistmanager.framework;
 
 import java.util.ArrayList;
 
-public class AnimeList {
+public abstract class AnimeList {
     String japaneseTitle;
     String englishTitle;
     int Index;
