@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b340f9-f778-4647-9f88-2530843dcab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/parser/parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/AnimeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/AnimeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/MovieListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/MovieListItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +56,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,6 +98,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.MyAnimeListManager [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MyAnimeListManager [dependencies].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.MyAnimeListManager [run].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -113,7 +118,51 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MyAnimeListManager [buildDependents]">
+    <configuration name="MyAnimeListManager [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyAnimeListManager [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MyAnimeListManager [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,6 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MyAnimeListManager [buildDependents]" />
+        <item itemvalue="Gradle.MyAnimeListManager [dependencies]" />
         <item itemvalue="Gradle.MyAnimeListManager [run]" />
       </list>
     </recent_temporary>
@@ -167,7 +218,10 @@
       <workItem from="1714748710432" duration="115000" />
       <workItem from="1714760520371" duration="2171000" />
       <workItem from="1714778310165" duration="5381000" />
-      <workItem from="1714783885048" duration="28000" />
+      <workItem from="1714783885048" duration="77000" />
+      <workItem from="1714820024992" duration="889000" />
+      <workItem from="1714852758713" duration="2459000" />
+      <workItem from="1714857782938" duration="5000" />
     </task>
     <servers />
   </component>
