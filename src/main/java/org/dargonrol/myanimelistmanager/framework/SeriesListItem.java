@@ -1,29 +1,37 @@
 package org.dargonrol.myanimelistmanager.framework;
 
-public class SeriesListItem extends AbstractAnimeList {
+public class SeriesListItem extends AnimeList {
     private int seasons = 1;
-    private SeasonObject[] seasonList;
+    private SeasonRecord[] seasonList;
 
-
-    public SeriesListItem(String japaneseTitle, String englishTitle, int seasons) {
-        super(japaneseTitle, englishTitle);
-        this.seasons = seasons;
-        seasonList = new SeasonObject[seasons];
+    public SeriesListItem(String japaneseTitle, String englishTitle, int number, SeasonRecord[] seasonList) {
+        super(japaneseTitle, englishTitle, number);
+        this.seasons = seasonList.length;
+        this.seasonList = seasonList;
     }
 
-    public SeriesListItem(String englishTitle, int seasons) {
-        super(englishTitle);
-        this.seasons = seasons;
-        seasonList = new SeasonObject[seasons];
+    public SeriesListItem(String japaneseTitle, String englishTitle, int number, SeasonRecord season) {
+        super(japaneseTitle, englishTitle, number);
+        this.seasonList = new SeasonRecord[]{season};
     }
 
-    public SeasonObject getSeason(int season) {
+    public SeriesListItem(String japaneseTitle, String englishTitle, int number) {
+        super(japaneseTitle, englishTitle, number);
+        seasonList = new SeasonRecord[seasons];
+    }
+
+    public SeriesListItem(String englishTitle, int number) {
+        super(englishTitle, number);
+        seasonList = new SeasonRecord[seasons];
+    }
+
+    public SeasonRecord getSeason(int season) {
         if (season <= 0 || season >= seasons) {
             System.out.println("Season out of bounds");
             return null;
         }
-        for (SeasonObject seasonObj : seasonList) {
-            if (seasonObj.getSeason() == season) {
+        for (SeasonRecord seasonObj : seasonList) {
+            if (seasonObj.seasonNumber() == season) {
                 return seasonObj;
             }
         }
@@ -31,13 +39,13 @@ public class SeriesListItem extends AbstractAnimeList {
         return null;
     }
 
-    public SeasonObject getSeason(int season, int part) {
+    public SeasonRecord getSeason(int season, int part) {
         if (season <= 0 || season >= seasons) {
             System.out.println("Season out of bounds");
             return null;
         }
-        for (SeasonObject seasonObj : seasonList) {
-            if (seasonObj.getSeason() == season && seasonObj.getPart() == part) {
+        for (SeasonRecord seasonObj : seasonList) {
+            if (seasonObj.seasonNumber() == season && seasonObj.part() == part) {
                 return seasonObj;
             }
         }
@@ -45,23 +53,45 @@ public class SeriesListItem extends AbstractAnimeList {
         return null;
     }
 
-    public void addSeason(SeasonObject season) {
-        for (SeasonObject seasonObject: this.seasonList) {
-            if (season.getSeason() == seasonObject.getSeason() || season.getPart() == seasonObject.getPart()) {
+    public void addSeason(SeasonRecord season) {
+        for (SeasonRecord seasonObject: this.seasonList) {
+            if (season.seasonNumber() == seasonObject.seasonNumber() || season.part() == seasonObject.part()) {
                 System.out.println("Season already exists");
                 return;
             }
         } // Check if season already exists
-        // Add season
+        // TODO: Add season
     }
 
-    public void addSeasons(SeasonObject[] seasons) {
+    public void addSeasons(SeasonRecord[] seasons) {
         if (seasons != null) {
             this.seasonList = seasons;
         }
     }
 
-    // Adding Opening Class?? and array or list here
-    // movie object cause Anime can have seasons and movies
+    public void setSeasonList(SeasonRecord[] seasonList) {
+        this.seasonList = seasonList;
+    }
 
+    public void removeSeason(int season) {
+        if (season <= 0 || season >= seasons) {
+            System.out.println("Season out of bounds");
+            return;
+        }
+        // TODO: remove season
+        System.out.println("Season not found");
+    }
+
+    public void removeSeason(int season, int part) {
+        if (season <= 0 || season >= seasons) {
+            System.out.println("Season out of bounds");
+            return;
+        }
+        // TODO: remove season
+        System.out.println("Season not found");
+    }
+
+    public void setSeasons(int seasonIndex, SeasonRecord season) {
+        //TODO: loop through seasonList and replace seasonIndex
+    }
 }

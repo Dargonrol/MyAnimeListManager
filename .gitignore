@@ -42,4 +42,5 @@ bin/
 .DS_Store
 
 ### custom ###
-.idea
+.idea/
+.idea/workspace.xml

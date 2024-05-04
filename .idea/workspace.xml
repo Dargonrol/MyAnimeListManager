@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b340f9-f778-4647-9f88-2530843dcab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/AnimeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/MediaTypeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/MovieRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/SeasonRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/AbstractAnimeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/MovieListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/MovieListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/SeasonObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/SeriesListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dargonrol/myanimelistmanager/framework/SeriesListItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +65,8 @@
       <list>
         <option value="Python Script" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -162,7 +175,9 @@
       <workItem from="1714744306241" duration="150000" />
       <workItem from="1714744558325" duration="3897000" />
       <workItem from="1714748650327" duration="11000" />
-      <workItem from="1714748710432" duration="64000" />
+      <workItem from="1714748710432" duration="115000" />
+      <workItem from="1714760520371" duration="2171000" />
+      <workItem from="1714778310165" duration="5279000" />
     </task>
     <servers />
   </component>
